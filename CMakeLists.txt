@@ -3,4 +3,4 @@ project(RusiavimoAlgoritmai)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RusiavimoAlgoritmai main.cpp)
+add_executable(RusiavimoAlgoritmai main.cpp person.h)

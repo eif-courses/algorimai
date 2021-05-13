@@ -8,6 +8,7 @@ void swap(int array[], int i, int j);
 
 int main() {
 
+  int a;
   int data[] = {515123123, 1212412313,1212412313, 1212412313, 1212412313};
 
   int length = sizeof(data) / sizeof(data[0]);
