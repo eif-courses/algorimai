@@ -5,6 +5,8 @@ void bubbleSort(int array[], int size);
 
 void swap(int array[], int i, int j);
 
+void add(int a, int b);
+
 int main() {
 
   int data[] = {515123123, 1212412313,1212412313, 1212412313, 1212412313};
@@ -47,4 +49,7 @@ void bubbleSort(int array[], int size) {
       }
     }
   }
+}
+void add(int a, int b){
+  std::cout << "result: " << a+b;
 }
