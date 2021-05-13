@@ -5,18 +5,10 @@ void bubbleSort(int array[], int size);
 
 void swap(int array[], int i, int j);
 
-void add(int a, int b);
 
 int main() {
 
   int data[] = {515123123, 1212412313,1212412313, 1212412313, 1212412313};
-  // 45,2
-  // 2,25
-  // 25,35
-  // 35, 65,
-  // 65, 48
-  // 48, out of range // 0 arba siuksle is atminties
-
 
   int length = sizeof(data) / sizeof(data[0]);
 
@@ -25,6 +17,11 @@ int main() {
   for (auto it: data) {
     std::cout << it << " ";
   }
+
+  for (int i = 0; i < 20; ++i) {
+    std::cout << i << " ";
+  }
+
 
 
   return 0;
@@ -49,7 +46,4 @@ void bubbleSort(int array[], int size) {
       }
     }
   }
-}
-void add(int a, int b){
-  std::cout << "result: " << a+b;
 }
