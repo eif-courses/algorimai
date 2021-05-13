@@ -62,10 +62,10 @@ RM = C:\Users\Marius\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Marius\CLionProjects\RusiavimoAlgoritmai
+CMAKE_SOURCE_DIR = C:\Users\Marius\Documents\algorimai2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Marius\CLionProjects\RusiavimoAlgoritmai\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Marius\Documents\algorimai2\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -92,14 +92,14 @@ clean: CMakeFiles/RusiavimoAlgoritmai.dir/clean
 CMakeFiles/RusiavimoAlgoritmai.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RusiavimoAlgoritmai.dir\build.make CMakeFiles/RusiavimoAlgoritmai.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RusiavimoAlgoritmai.dir\build.make CMakeFiles/RusiavimoAlgoritmai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Marius\CLionProjects\RusiavimoAlgoritmai\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target RusiavimoAlgoritmai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Marius\Documents\algorimai2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target RusiavimoAlgoritmai"
 .PHONY : CMakeFiles/RusiavimoAlgoritmai.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RusiavimoAlgoritmai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\CLionProjects\RusiavimoAlgoritmai\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\Documents\algorimai2\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RusiavimoAlgoritmai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\CLionProjects\RusiavimoAlgoritmai\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\Documents\algorimai2\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/RusiavimoAlgoritmai.dir/rule
 
 # Convenience name for target.
